@@ -15,14 +15,13 @@ A simple and efficient product recommendation system using **FAISS** for similar
 ---
 
 ## 🗂️ Project Structure
-
-ecommerce-product-recommendation/
-├── app.py
-├── data_processing.py
-├── recommendation_utils.py
-├── requirements.txt
-├── .env
-└── README.md
+Poduct_Recommendation
+|-- Dataset # Dataset eg:amazon.csv
+├── vectorizer.pkl # Saved TF-IDF vectorizer
+├── faiss_index.idx # FAISS index of product vectors
+├── course_corpus.pkl # Product data with user IDs
+├── app.py # Streamlit app
+├── README.md # This file
 
 ---
 
